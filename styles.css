@@ -1,0 +1,242 @@
+@charset "utf-8";
+#header {
+    min-height: 100px;
+    background-color: black;
+	
+}
+
+ul {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    box-shadow: 3px 5px 7px black;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #b026ff;
+}
+#content {
+    min-height: 400px;
+    margin-top: 3%;
+    background-color: #0B8A80;
+    background-image: linear-gradient(to bottom right, #B026FF, blue);
+    color: white;
+	
+}
+#footer {
+    min-height: 100px;
+    margin-top: 3%;
+    background-color: #b026ff;
+    color: white;
+}
+#header, #menu, #content, #footer {
+    margin-left: 10%;
+    margin-right: 10%;
+    -webkit-box-shadow: 3px 5px 7px #666666;
+    border: 1px solid black;
+    box-shadow: 3px 5px 7px black;
+}
+.menu_ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+.menu_ul li {
+    float: left;
+    border: none;
+    padding-left: 18px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+#sub_menu {
+    width: 22%;
+    min-height: 350px;
+    padding: 1%;
+    background-color: #999999;
+    border: 1px solid;
+    vertical-align: top;
+}
+#stuff {
+    width: 70%;
+    margin-left: 1%;
+}
+#sub_menu #stuff {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+#menu {
+    min-height: 40px;
+    background-color: #999999;
+}
+body {
+    background-color: black;
+	background-image: linear-gradient(to right, blue, purple)
+}
+.head {
+    width: 100%;
+    height: auto;
+}
+.one {
+    width: 30%;
+    padding: 5px;
+    height: auto;
+}
+.two {
+    width: 30%;
+    height: auto;
+    padding: 5px;
+    float: right;
+}
+hr {
+    clear: both;
+}
+.three {
+    width: 30%;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+}
+.ps2 {
+    width: 50%;
+    height: auto;
+    padding: 5px;
+    float: right;
+}
+.ps4 {
+    width: 50%;
+    padding: 5px;
+    height: auto;
+}
+.ps3 {
+    width: 50%;
+    padding: 5px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px){
+#sub_menu {
+    min-height: initial auto;
+    margin-bottom: 2%;
+}
+#stuff #sub_menu {
+    display: block;
+    width: 90%;
+}
+.menu_ul li {
+
+
+
+}
+.head  {
+    width: 100%;
+    height: auto;
+
+}
+body {
+    background-color: white;
+	background-image: linear-gradient(white, white)
+}
+.bill {
+    width: 100%;
+    padding: none;
+    height: auto;
+}
+.fort {
+    width: 100%;
+    height: auto;
+}
+.cody {
+    width: 100%;
+    height: auto;
+}
+
+
+
+ul {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    box-shadow: 3px 5px 7px black;
+}
+.ps2 {
+    width: 100%;
+    height: auto;
+}
+.ps3 {
+    width: 100%;
+    height: auto;
+}
+
+
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: white;
+    color: black;
+}
+.one {
+    width: 100%;
+    height: auto;
+}
+.two {
+    width: 100%;
+    height: auto;
+}
+#content {
+    background-color: white;
+    background-image: linear-gradient(black, black);
+}
+#footer {
+    background-color: black;
+}
+
+
+}
